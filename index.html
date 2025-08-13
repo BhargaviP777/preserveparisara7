@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preserve Parisara - No Plastic, Save Nature, Save Culture</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-leaf"></i>
+                <span>Preserve Parisara</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#awareness">Awareness</a></li>
+                <li><a href="#culture">Culture</a></li>
+                <li><a href="#tips">Tips</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#social-media">Social Media</a></li>
+                <li><a href="#instagram-feed">Instagram</a></li>
+                <li><a href="#photo-gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="mobile-social">
+                    <a href="https://www.instagram.com/preserve_parisara?igsh=ODE3aXRnb254c3d2" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                        Follow us on Instagram
+                    </a>
+                </li>
+            </ul>
+            <div class="nav-social">
+                <a href="https://www.instagram.com/preserve_parisara?igsh=ODE3aXRnb254c3d2" target="_blank" class="social-icon" title="Follow us on Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Preserve Parisara</h1>
+            <p class="hero-subtitle">No Plastic • Save Nature • Save Culture</p>
+            <!-- Added rotating slogan line -->
+            <p class="hero-slogan" aria-live="polite">Planet over plastic.</p>
+            <p class="hero-description">Join us in protecting our planet and preserving our cultural heritage for future generations.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('awareness')">Take Action</button>
+                <button class="btn btn-secondary" onclick="scrollToSection('events')">Join Events</button>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="nature-elements">
+                <div class="leaf leaf-1"></div>
+                <div class="leaf leaf-2"></div>
+                <div class="leaf leaf-3"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Our Mission</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Preserve Parisara is a community-driven initiative dedicated to environmental conservation and cultural preservation. We believe that protecting our natural world and honoring our cultural traditions go hand in hand.</p>
+                    <div class="mission-stats">
+                        <div class="stat">
+                            <h3>1000+</h3>
+                            <p>Community Members</p>
+                        </div>
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p>Events Organized</p>
+                        </div>
+                        <div class="stat">
+                            <h3>100%</h3>
+                            <p>Eco-Friendly</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-seedling"></i>
+                        <p>Nature & Culture</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Environmental Awareness Section -->
+    <section id="awareness" class="awareness">
+        <div class="container">
+            <h2>Environmental Awareness</h2>
+            <div class="awareness-grid">
+                <div class="awareness-card">
+                    <div class="card-icon">
+                        <i class="fas fa-ban"></i>
+                    </div>
+                    <h3>No Plastic</h3>
+                    <p>Plastic pollution is one of the biggest threats to our oceans and wildlife. Join us in eliminating single-use plastics from our daily lives.</p>
+                    <button class="btn btn-outline">Learn More</button>
+                </div>
+                <div class="awareness-card">
+                    <div class="card-icon">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <h3>Save Nature</h3>
+                    <p>Our forests, oceans, and wildlife are essential for maintaining ecological balance. Let's protect and restore our natural ecosystems.</p>
+                    <button class="btn btn-outline">Learn More</button>
+                </div>
+                <div class="awareness-card">
+                    <div class="card-icon">
+                        <i class="fas fa-landmark"></i>
+                    </div>
+                    <h3>Save Culture</h3>
+                    <p>Cultural heritage connects us to our roots and traditions. Preserving cultural practices helps maintain community identity and wisdom.</p>
+                    <button class="btn btn-outline">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cultural Heritage Section -->
+    <section id="culture" class="culture">
+        <div class="container">
+            <h2>Cultural Heritage Preservation</h2>
+            <div class="culture-content">
+                <div class="culture-text">
+                    <h3>Honoring Our Traditions</h3>
+                    <p>Cultural heritage is the foundation of our identity. From traditional crafts to indigenous knowledge, we work to preserve and celebrate the wisdom passed down through generations.</p>
+                    <ul class="culture-list">
+                        <li><i class="fas fa-check"></i> Traditional Artisan Workshops</li>
+                        <li><i class="fas fa-check"></i> Indigenous Knowledge Sharing</li>
+                        <li><i class="fas fa-check"></i> Cultural Festival Celebrations</li>
+                        <li><i class="fas fa-check"></i> Heritage Site Conservation</li>
+                    </ul>
+                    <button class="btn btn-primary">Support Cultural Projects</button>
+                </div>
+                <div class="culture-gallery">
+                    <div class="gallery-item">
+                        <img src="https://source.unsplash.com/600x400/?handicrafts,artisan" alt="Traditional arts and crafts" />
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://source.unsplash.com/600x400/?folk,performance" alt="Cultural music and performances" />
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://source.unsplash.com/600x400/?traditional,food" alt="Traditional cuisine" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tips Section -->
+    <section id="tips" class="tips">
+        <div class="container">
+            <h2>Tips for Reducing Plastic Use</h2>
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <div class="tip-number">01</div>
+                    <h3>Use Reusable Bags</h3>
+                    <p>Carry cloth or jute bags for shopping instead of plastic bags. Keep them in your car or bag for convenience.</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-number">02</div>
+                    <h3>Choose Glass Containers</h3>
+                    <p>Store food in glass containers instead of plastic. They're safer, more durable, and better for the environment.</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-number">03</div>
+                    <h3>Use Bamboo Products</h3>
+                    <p>Switch to bamboo toothbrushes, cutlery, and other household items. Bamboo is sustainable and biodegradable.</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-number">04</div>
+                    <h3>Buy in Bulk</h3>
+                    <p>Purchase items in bulk to reduce packaging waste. Bring your own containers to bulk stores.</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-number">05</div>
+                    <h3>Use Natural Cleaners</h3>
+                    <p>Make your own cleaning products using vinegar, baking soda, and essential oils instead of plastic-packaged cleaners.</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-number">06</div>
+                    <h3>Support Local Markets</h3>
+                    <p>Shop at local farmers' markets where produce is often sold without plastic packaging.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="events">
+        <div class="container">
+            <h2>Community Events</h2>
+            <div class="events-grid">
+                <div class="event-card">
+                    <div class="event-date">
+                        <span class="day">15</span>
+                        <span class="month">Dec</span>
+                    </div>
+                    <div class="event-content">
+                        <h3>Tree Planting Drive</h3>
+                        <p class="event-time"><i class="fas fa-clock"></i> 9:00 AM - 2:00 PM</p>
+                        <p class="event-location"><i class="fas fa-map-marker-alt"></i> Central Park</p>
+                        <p>Join us for our monthly tree planting initiative. Help restore our local ecosystem and create a greener future.</p>
+                        <button class="btn btn-primary">Register Now</button>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-date">
+                        <span class="day">22</span>
+                        <span class="month">Dec</span>
+                    </div>
+                    <div class="event-content">
+                        <h3>Traditional Craft Workshop</h3>
+                        <p class="event-time"><i class="fas fa-clock"></i> 2:00 PM - 5:00 PM</p>
+                        <p class="event-location"><i class="fas fa-map-marker-alt"></i> Community Center</p>
+                        <p>Learn traditional pottery and weaving techniques from local artisans. Preserve cultural skills for future generations.</p>
+                        <button class="btn btn-primary">Register Now</button>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-date">
+                        <span class="day">30</span>
+                        <span class="month">Dec</span>
+                    </div>
+                    <div class="event-content">
+                        <h3>Beach Cleanup</h3>
+                        <p class="event-time"><i class="fas fa-clock"></i> 8:00 AM - 12:00 PM</p>
+                        <p class="event-location"><i class="fas fa-map-marker-alt"></i> Coastal Beach</p>
+                        <p>Help clean our beaches and protect marine life. Learn about the impact of plastic pollution on ocean ecosystems.</p>
+                        <button class="btn btn-primary">Register Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Eco-Friendly Product Recommendations</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-shopping-bag"></i>
+                    </div>
+                    <h3>Reusable Shopping Bags</h3>
+                    <p>Stylish, durable bags made from organic cotton and jute. Perfect for grocery shopping and daily use.</p>
+                    <div class="product-price">$15-25</div>
+                    <button class="btn btn-outline">Learn More</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Bamboo Cutlery Set</h3>
+                    <p>Lightweight, portable cutlery made from sustainable bamboo. Includes fork, spoon, knife, and straw.</p>
+                    <div class="product-price">$20-30</div>
+                    <button class="btn btn-outline">Learn More</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h3>Stainless Steel Water Bottle</h3>
+                    <p>Keep your drinks cold for 24 hours or hot for 12 hours. BPA-free and environmentally friendly.</p>
+                    <div class="product-price">$25-35</div>
+                    <button class="btn btn-outline">Learn More</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Natural Soap Bars</h3>
+                    <p>Handcrafted soaps made with organic ingredients and essential oils. Zero plastic packaging.</p>
+                    <div class="product-price">$8-12</div>
+                    <button class="btn btn-outline">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section id="social-media" class="social-media">
+        <div class="container">
+            <div class="social-media-content">
+                <div class="social-media-text">
+                    <h2>Stay Connected With Us</h2>
+                    <p>Follow us on Instagram for daily eco tips, behind-the-scenes content, and updates on community events. Join our growing community of environmental advocates!</p>
+                    <div class="social-features">
+                        <div class="social-feature">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Daily Eco Tips</span>
+                        </div>
+                        <div class="social-feature">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Event Updates</span>
+                        </div>
+                        <div class="social-feature">
+                            <i class="fas fa-users"></i>
+                            <span>Community Stories</span>
+                        </div>
+                        <div class="social-feature">
+                            <i class="fas fa-camera"></i>
+                            <span>Nature Photography</span>
+                        </div>
+                    </div>
+                    <a href="https://www.instagram.com/preserve_parisara?igsh=ODE3aXRnb254c3d2" target="_blank" class="btn btn-primary social-cta">
+                        <i class="fab fa-instagram"></i>
+                        Follow @preserve_parisara
+                    </a>
+                </div>
+                <div class="social-media-visual">
+                    <div class="instagram-preview">
+                        <div class="instagram-header">
+                            <i class="fab fa-instagram"></i>
+                            <span>preserve_parisara</span>
+                        </div>
+                        <div class="instagram-content">
+                            <div class="instagram-post">
+                                <i class="fas fa-seedling"></i>
+                                <p>🌱 Today's Eco Tip: Start your own herb garden using kitchen scraps! #EcoTips #Sustainability</p>
+                            </div>
+                            <div class="instagram-post">
+                                <i class="fas fa-tree"></i>
+                                <p>🌳 Join us this weekend for our tree planting drive! #CommunityEvents #SaveNature</p>
+                            </div>
+                            <div class="instagram-post">
+                                <i class="fas fa-recycle"></i>
+                                <p>♻️ Plastic-free alternatives that actually work! #NoPlastic #EcoFriendly</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- From Our Instagram Section -->
+    <section id="instagram-feed" class="instagram-feed">
+        <div class="container">
+            <div class="instagram-feed-header">
+                <h2>From Our Instagram</h2>
+                <p>Latest updates, eco tips, and community moments from @preserve_parisara</p>
+                <a href="https://www.instagram.com/preserve_parisara?igsh=ODE3aXRnb254c3d2" target="_blank" class="btn btn-outline">
+                    <i class="fab fa-instagram"></i>
+                    View All Posts
+                </a>
+            </div>
+            <div class="instagram-grid">
+                <div class="instagram-item" onclick="openInstagramPost('https://www.instagram.com/preserve_parisara?igsh=ODE3aXRnb254c3d2')">
+                    <div class="instagram-image">
+                        <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=400&q=80" alt="Forest conservation" loading="lazy" />
+                        <div class="instagram-overlay">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                    <div class="instagram-caption">
+                        <p>🌲 Protecting our forests, one tree at a time. #SaveNature #ForestConservation</p>
+                        <span class="instagram-date">2 hours ago</span>
+                    </div>
+                </div>
+                <div class="instagram-item" onclick="openInstagramPost('https://www.instagram.com/preserve_parisara?igsh=ODE3aXRnb254c3d2')">
+                    <div class="instagram-image">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=400&q=80" alt="Plastic-free alternatives" loading="lazy" />
+                        <div class="instagram-overlay">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                    <div class="instagram-caption">
+                        <p>♻️ Swap plastic for bamboo! Small changes, big impact. #NoPlastic #EcoFriendly</p>
+                        <span class="instagram-date">1 day ago</span>
+                    </div>
+                </div>
+                <div class="instagram-item" onclick="openInstagramPost('https://www.instagram.com/preserve_parisara?igsh=ODE3aXRnb254c3d2')">
+                    <div class="instagram-image">
+                        <img src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=400&q=80" alt="Community workshop" loading="lazy" />
+                        <div class="instagram-overlay">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                    <div class="instagram-caption">
+                        <p>🎨 Traditional craft workshop was amazing! Preserving culture through art. #SaveCulture</p>
+                        <span class="instagram-date">2 days ago</span>
+                    </div>
+                </div>
+                <div class="instagram-item" onclick="openInstagramPost('https://www.instagram.com/preserve_parisara?igsh=ODE3aXRnb254c3d2')">
+                    <div class="instagram-image">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=400&q=80" alt="Ocean cleanup" loading="lazy" />
+                        <div class="instagram-overlay">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                    <div class="instagram-caption">
+                        <p>🌊 Beach cleanup success! Every piece of plastic removed makes a difference. #OceanConservation</p>
+                        <span class="instagram-date">3 days ago</span>
+                    </div>
+                </div>
+                <div class="instagram-item" onclick="openInstagramPost('https://www.instagram.com/preserve_parisara?igsh=ODE3aXRnb254c3d2')">
+                    <div class="instagram-image">
+                        <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=400&q=80" alt="Nature photography" loading="lazy" />
+                        <div class="instagram-overlay">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                    <div class="instagram-caption">
+                        <p>📸 Nature's beauty captured in our local park. #NaturePhotography #Biodiversity</p>
+                        <span class="instagram-date">4 days ago</span>
+                    </div>
+                </div>
+                <div class="instagram-item" onclick="openInstagramPost('https://www.instagram.com/preserve_parisara?igsh=ODE3aXRnb254c3d2')">
+                    <div class="instagram-image">
+                        <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=400&q=80" alt="Sustainable living" loading="lazy" />
+                        <div class="instagram-overlay">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                    <div class="instagram-caption">
+                        <p>🏡 Sustainable living starts at home. Simple swaps for a greener lifestyle. #SustainableLiving</p>
+                        <span class="instagram-date">5 days ago</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section id="photo-gallery" class="photo-gallery">
+        <div class="container">
+            <div class="gallery-header">
+                <h2>Photo Gallery</h2>
+                <p>Capturing moments of environmental conservation, cultural preservation, and community action</p>
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">All Photos</button>
+                    <button class="filter-btn" data-filter="nature">Nature</button>
+                    <button class="filter-btn" data-filter="culture">Culture</button>
+                    <button class="filter-btn" data-filter="community">Community</button>
+                    <button class="filter-btn" data-filter="events">Events</button>
+                </div>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="nature">
+                    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=600&q=80" alt="Forest conservation" loading="lazy" />
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Forest Conservation</h3>
+                            <p>Protecting our natural ecosystems</p>
+                            <a href="https://www.instagram.com/preserve_parisara?igsh=ODE3aXRnb254c3d2" target="_blank" class="gallery-link">
+                                <i class="fab fa-instagram"></i> View on Instagram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="culture">
+                    <img src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=600&q=80" alt="Traditional crafts" loading="lazy" />
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Traditional Crafts</h3>
+                            <p>Preserving cultural heritage</p>
+                            <a href="https://www.instagram.com/preserve_parisara?igsh=ODE3aXRnb254c3d2" target="_blank" class="gallery-link">
+                                <i class="fab fa-instagram"></i> View on Instagram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="community">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80" alt="Community workshop" loading="lazy" />
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Community Workshop</h3>
+                            <p>Learning sustainable practices</p>
+                            <a href="https://www.instagram.com/preserve_parisara?igsh=ODE3aXRnb254c3d2" target="_blank" class="gallery-link">
+                                <i class="fab fa-instagram"></i> View on Instagram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="events">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=600&q=80" alt="Beach cleanup" loading="lazy" />
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Beach Cleanup</h3>
+                            <p>Protecting marine life</p>
+                            <a href="https://www.instagram.com/preserve_parisara?igsh=ODE3aXRnb254c3d2" target="_blank" class="gallery-link">
+                                <i class="fab fa-instagram"></i> View on Instagram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="nature">
+                    <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=600&q=80" alt="Nature photography" loading="lazy" />
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Nature Photography</h3>
+                            <p>Capturing biodiversity</p>
+                            <a href="https://www.instagram.com/preserve_parisara?igsh=ODE3aXRnb254c3d2" target="_blank" class="gallery-link">
+                                <i class="fab fa-instagram"></i> View on Instagram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="culture">
+                    <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=600&q=80" alt="Sustainable living" loading="lazy" />
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Sustainable Living</h3>
+                            <p>Eco-friendly lifestyle</p>
+                            <a href="https://www.instagram.com/preserve_parisara?igsh=ODE3aXRnb254c3d2" target="_blank" class="gallery-link">
+                                <i class="fab fa-instagram"></i> View on Instagram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="events">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=600&q=80" alt="Tree planting" loading="lazy" />
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Tree Planting Drive</h3>
+                            <p>Growing our future</p>
+                            <a href="https://www.instagram.com/preserve_parisara?igsh=ODE3aXRnb254c3d2" target="_blank" class="gallery-link">
+                                <i class="fab fa-instagram"></i> View on Instagram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="community">
+                    <img src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=600&q=80" alt="Community gathering" loading="lazy" />
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Community Gathering</h3>
+                            <p>Building connections</p>
+                            <a href="https://www.instagram.com/preserve_parisara?igsh=ODE3aXRnb254c3d2" target="_blank" class="gallery-link">
+                                <i class="fab fa-instagram"></i> View on Instagram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-footer">
+                <a href="https://www.instagram.com/preserve_parisara?igsh=ODE3aXRnb254c3d2" target="_blank" class="btn btn-primary">
+                    <i class="fab fa-instagram"></i>
+                    Follow @preserve_parisara for More Photos
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Make a Difference Today</h2>
+                <p>Join our community of environmental and cultural preservation advocates. Every small action counts towards a sustainable future.</p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary">Take the Pledge</button>
+                    <button class="btn btn-secondary">Make a Donation</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-leaf"></i>
+                        <span>Preserve Parisara</span>
+                    </div>
+                    <p>Protecting our planet and preserving our cultural heritage for future generations.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/preserve_parisara?igsh=ODE3aXRnb254c3d2" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                            <span>@preserve_parisara</span>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#awareness">Environmental Awareness</a></li>
+                        <li><a href="#culture">Cultural Heritage</a></li>
+                        <li><a href="#events">Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Get Involved</h3>
+                    <ul>
+                        <li><a href="#tips">Plastic-Free Tips</a></li>
+                        <li><a href="#products">Eco Products</a></li>
+                        <li><a href="#events">Join Events</a></li>
+                        <li><a href="#contact">Volunteer</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-envelope"></i> info@preserveparisara.org</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Community Center, Green City</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Preserve Parisara. All rights reserved. | Made with <i class="fas fa-heart"></i> for our planet</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
